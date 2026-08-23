@@ -7277,7 +7277,7 @@ export const Moves: import("../sim/dex-moves").MoveDataTable = {
 		pp: 10,
 		priority: 1,
 		flags: { protect: 1, mirror: 1, metronome: 1, contact: 1, punch: 1 },
-		willCrit: true,
+		willCrit: true,// t
 		target: "normal",
 		type: "Electric",
 	},
