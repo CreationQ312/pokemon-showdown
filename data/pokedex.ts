@@ -26899,5 +26899,30 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		//color: "Yellow", no page yet
 		eggGroups: ["Undiscovered"],
   	},
-
+	mawiledelta: {
+		num: 303,
+		name: "Mawile-Delta",
+		baseSpecies: "Mawile",
+		forme: "Delta",
+		types: ["Steel", "Ice"],
+		baseStats: { hp: 55, atk: 90, def: 55, spa: 50, spd: 85, spe: 45 },
+		abilities: { 0: "Snow Veil", 1: "Hyper Cutter", H: "Strong Jaw" },
+		heightm: 0.6,
+		weightkg: 11.5,
+		//color: "Black", no page yet
+		eggGroups: ["Field", "Fairy"],
+	},
+	mawiledeltamega: {
+		num: 303,
+		name: "Mawile-Delta-Mega",
+		baseSpecies: "Mawile-Delta",
+		forme: "Mega",
+		types: ["Steel", "Ice"],
+		baseStats: { hp: 55, atk: 115, def: 90, spa: 50, spd: 125, spe: 45 },
+		abilities: { 0: "Huge Power" },
+		heightm: 1.0,
+		weightkg: 11.5,
+		//color: "Black", no page yet
+		eggGroups: ["Field", "Fairy"],
+	},
 };
