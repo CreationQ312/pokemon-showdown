@@ -26925,6 +26925,6 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 2.1,
 		//color: "Yellow", no page yet
 		eggGroups: ["Undiscovered"],
-  	},//test
+  	},
 
 };
