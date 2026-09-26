@@ -6332,7 +6332,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	uxiedelta: {
 		tier: "UU",
-		natDexTier: "B",
+		natDexTier: "A",
 	},
 	azelfdelta: {
 		tier: "OU",
@@ -6561,6 +6561,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	lopunnydeltamega: {
 		tier: "OU",
 		natDexTier: "A",
+	},
+	mawiledelta: {
+		tier: "ZU",
+		natDexTier: "Unreleased",
+	},
+	mawiledeltamega: {
+		tier: "ZU",
+		natDexTier: "Unreleased",
 	},
 	dunsparceultra: {
 		tier: "LC",
@@ -7617,7 +7625,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "B",
 	},
 	urshifuflashstrike: {
-		tier: "UU",
+		tier: "Uber",
 		doublesTier: "(DUU)",
 		natDexTier: "Uber",
 	},

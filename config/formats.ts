@@ -76,7 +76,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard OMs', 'Sleep Moves Clause', 'Terastal Clause', 'NatDex Mod', 'Z-Move Clause'],
 		banlist: [
 			'Calyrex-Shadow', 'Koraidon', 'Kyogre', 'Miraidon', 'Moody', 'Shadow Tag', 'Beedrillite', 'Blazikenite', 'Gengarite',
-			'Kangaskhanite', 'Lucarionite Z','Mawilite', 'Medichamite', 'Pidgeotite', 'Red Orb', 'Baton Pass',
+			'Kangaskhanite', 'Lucarionite Z', 'Mawilite', 'Delta Mawilite', 'Medichamite', 'Pidgeotite', 'Red Orb', 'Baton Pass',
 			'Shed Tail', 'Kyurem-Original', 'Mewthree', 'Heracronite', 'Klocktowlite', 'Delta Chimechite', 'Necromausite', 'Diancite', 'Sapphire Diancite', 'Ruby Diancite',
 			'Flygonite', 'Raichunite Y', 'Absolite Z', 'Meganiumite', 'Hawluchanite', 'Illusory Sword', 'Delta Steelixite', 'Emboarite',
 			//not in game
@@ -191,6 +191,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ["Last Respects", "Shed Tail", "Hidden Power", "Dire Claw", "Bloodmoon", "Blastoise-Mega + Shell Smash", "Power Construct", "Raichu-Mega-Y + Sing", "Alakazam-Mega + Nasty Plot"],
 	},
 	{
+		name: "[Gen 9] [ND] Delta Draft League Season 2 LC",
+		searchShow: false,
+		mod: "gen9",
+		ruleset: ['[Gen 9] NatDex Draft', 'Little Cup', 'Terastal Clause', 'Z-Move Clause', 'Item Clause = 2'],
+		banlist: ['Moody', 'King\'s Rock', 'Pure Power',
+			'Quick Claw', 'Razor Fang', 'Dragon Rage', 'Sonic Boom', 'Light Clay', 'Icy Rock', 'Damp Rock', 'Smooth Rock', 'Heat Rock',
+
+			'Aipom-Delta', 'Aipom-Ultra', 'Basculin', 'Chatot-Delta', 'Corsola-Galar', 'Corsola-Delta', 'Druddigon-Delta', 'Dunsparce', 'Dunsparce-Ultra',
+			'Duraludon', 'Girafarig', 'Gligar', 'Glimmet-Ultra', 'Misdreavus', 'Murkrow', 'Qwilfish-Hisui',
+			'Scyther', 'Shuckle-Delta', 'Skiddo-Delta', 'Sneasel', 'Sneasel-Hisui', 'Stantler', 'Tangela',
+			'Torkoal-Delta', 'Type: Null', 'Zigzagoon'],
+			unbanlist: ["Poipole", "Yanma", "Swirlix", "Porygon"],
+		
+	},
+	{
 		section: "Legacy Tour Formats",	
 	},
 		{
@@ -226,7 +241,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] [ND] DDL LC",
 		mod: 'prems7patch',
 		searchShow: false,
-		ruleset: ['Standard NatDex', 'Little Cup', 'Item Clause = 2', 'Terastal Clause'],
+		ruleset: ['[Gen 9] NatDex Draft', 'Little Cup', 'Item Clause = 2', 'Terastal Clause'],
 		banlist: [
 			'Moody', 'Eevium Z', 'King\'s Rock', 'Pure Power',
 			'Quick Claw', 'Razor Fang', 'Dragon Rage', 'Sonic Boom', 'Light Clay', 'Icy Rock', 'Damp Rock', 'Smooth Rock', 'Heat Rock',
