@@ -25192,7 +25192,6 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		num: 485,
 		name: "Heatran-Delta",
 		types: ["Water", "Ground"],
-		gender: "N",
 		baseStats: { hp: 91, atk: 108, def: 103, spa: 139, spd: 90, spe: 69 },
 		abilities: { 0: "Clear Body", H: "Steamforged" },
 		heightm: 1.9,
