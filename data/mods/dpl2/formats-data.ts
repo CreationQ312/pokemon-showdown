@@ -11,6 +11,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: null,
 		tier: "Uber",
 	},
+	lucariomegaz: {
+		isNonstandard: null,
+		tier: "Uber",
+	},
 	audino: {
 		isNonstandard:null,
 		tier: "OU",
