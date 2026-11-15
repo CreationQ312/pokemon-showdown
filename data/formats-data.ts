@@ -969,7 +969,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	scizormega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "A-",
+		natDexTier: "A",
 	},
 	kleavor: {
 		tier: "RU",
@@ -7967,7 +7967,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	kricketotdelta: {
 		tier: "LC",
-		natDexTier: "A-",
+		natDexTier: "D",
 	},
 	kricketunedelta: {
 		tier: "NU",
@@ -7983,17 +7983,21 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	piplupdelta: {
 		tier: "UU",
-		natDexTier: "A-",
+		natDexTier: "D",
 	},
 	prinplupdelta: {
 		tier: "UU",
-		natDexTier: "A-",
+		natDexTier: "D",
 	},
 	empoleondelta: {
 		tier: "UU",
 		natDexTier: "A-",
 	},
 	ironhelix: {
+		tier: "UU",
+		natDexTier: "A-",
+	},
+	dragetsumega: {
 		tier: "UU",
 		natDexTier: "A-",
 	},
