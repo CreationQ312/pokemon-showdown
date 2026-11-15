@@ -25234,7 +25234,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		num: 488,
 		name: "Cresselia-Delta",
 		types: ["Fire"],
-		gender: "N",
+		gender: "F",
 		baseStats: { hp: 120, atk: 75, def: 70, spa: 120, spd: 110, spe: 85 },
 		abilities: { 0: "Serene Grace" },
 		heightm: 1.5,
