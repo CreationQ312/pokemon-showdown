@@ -11,5 +11,8 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		abilities: {0: "Tough Claws"},
 	},
-	
+	lucariomegaz: {
+		inherit: true,
+		abilities: {0: "Aura Guard"},
+	},
 };	
