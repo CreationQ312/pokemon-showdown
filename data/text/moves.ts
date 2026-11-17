@@ -7564,7 +7564,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	thicketoutgrowth: {
 		name: "Thicket Outgrowth",
-		shortDesc: "Removes hazards and sets Leech Seed on target.",
+		shortDesc: "Hazards removed: sets Leech Seed.",
+		desc: "Removes hazards from your side of the field. If this move successfully clears hazards, then it also sets Leech Seed on the target.",
 	},
 	thief: {
 		name: "Thief",
