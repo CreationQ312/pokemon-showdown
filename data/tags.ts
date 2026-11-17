@@ -304,7 +304,6 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "Is Magearna Delta",
 		genericFilter: species => species.name === 'Magearna-Delta',
 	},
-
 	// filter columns
 	// --------------
 	introducedgen: {
