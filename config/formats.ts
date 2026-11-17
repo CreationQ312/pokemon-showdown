@@ -71,6 +71,51 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		]
 	},
 	{
+	name: "[Gen 9] [ND] Delta STABmons",
+	mod: 'gen9',
+	ruleset: ['Standard OMs', 'Standard NatDex', 'Terastal Clause', 'STABmons Move Legality', 'Signature Z-Move Clause'],
+	banlist: [ 
+		//greninja delta bond walks into a building called "Mons i have had to make a seperate tag for to ban properly." he sees magearna-delta and shaymin-delta-sky, and shaymin delta sky says "you too?"
+		//he says, "sorry, no. i was actually taking the elevator to 'Mons i have had to make a onValidateTeam function to ban properly' floor."
+		'Assist', 'Azure Storm', 'Baton Pass', 'Bizarre Elixir', 'Blaze Out', 'Hydroswirl Fury', 'Last Respects', 'Lift Off', 'Phantasmal Voyage', 'Refraction Reactor', 'Shed Tail', 
+		'Solar Dance', 'Spectrum Scorch', 'Tidal Trance', 'Titanium Tempest', 'Searing Claws', 'Wretched Stab',
+		'Absol-Mega-Z', 'Ampharia', 'Ancient Gene', 'Arceus', 'Araquanid', 'Archaludon', 'Azumarill', 'Bansherene', 'Barbaracle-Mega', 'Basculegion', 'Basculegion-F', 'Baxcalibur',
+		'Blastoise-Mega', 'Blaziken-Mega', 'Bolteon', 'Buizel-ATOM', 'Calyrex-Ice', 'Calyrex-Shadow', 'Calyrex-Wave', 'Chi-Yu', 'Chi-Yu-Delta', 'Chien-Pao', 'Clefgar', 'Cloyster', 'Darkrai',
+		'Darkrai-ATOM', 'Darmanitan-Galar', 'Delphox-Mega', 'Deoxys', 'Deoxys-Attack', 'Dialga', 'Dialga-Origin', 'Dracovish', 'Dragapult', 'Dragapult-Ultra', 'Dragonite', 'Enamorus', 'Espathra',
+		'Eternatus', 'Etherion', 'Flutter Mane', 'Flygon-Mega', 'Garchomp', 'Garchomp-Delta', 'Genesect', 'Gengar-Mega', 'Giratina', 'Giratina-Origin', 'Goolossal', 'Gouging Fire', 'Greninja-Delta-Ash',
+		'Greninja-Mega', 'Groudon', 'Ho-Oh', 'Hoopa-Delta', 'Hoopa-Delta-Unbound', 'Hoopa-Omega', 'Hoopa-Omega-Unbound', 'Iron Bundle', 'Iron Moon', 'Iron Storm', 'Iron Pilot', 'Iron Revival', 'Iron Shades',
+		'Kangaskhan-Mega', 'Kartana', 'Keldeo-Delta-Mega', 'Komala', 'Kyogre', 'Koraidon', 'Kyurem', 'Kyurem-Black', 'Kyurem-Original', 'Kyurem-White', 'Landorus-Incarnate', 'Lilligant-Hisui', 'Lopunny-Delta',
+		'Lucario-Mega', 'Lucario-Mega-Z', 'Lugia', 'Lunala', 'Magearna', 'Magirigus', 'Malevorus', 'Malevorus-Therian', 'Manaphy', 'Marshadow', 'Meloetta-Delta', 'Meloetta-Omega', 'Meowscarada-Delta', 'Metagross-Mega',
+		'Mewthree', 'Mewtwo', 'Miraidon', 'Musharna-Unbound', 'Naganadel', 'Necromauser-Mega', 'Necrozma-Dusk-Mane', 'Necrozma-Dawn-Wings', 'Ninetales-Alola', 'Ogerpon', 'Palkia', 'Palkia-Origin',
+		'Pheromosa', 'Porygon Z', 'Radiant Moon', 'Raging Bolt', 'Raichu-Mega-X', 'Raichu-Mega-Y', 'Rayquaza', 'Reshiram', 'Rising Phoenix', 'Salamence-Mega', 'Savage Scar', 'Shaymin-Delta-Sky',
+		'Shaymin-Sky', 'Silvally', 'Solgaleo', 'Spectrier', 'Spiritomb-Unbound', 'Staraptor-Mega', 'Striding Sun', 'Tangled-Time', 'Tapu Kehe', 'Tapu Koko', 'Tapu Lele', 'Terapagos', 'Terapagos-ATOM',
+		'Thundurus-Therian', 'Torkoal-Delta', 'Ursaluna-Bloodmoon', 'Urshifu', 'Urshifu-Flash-Strike', 'Uxie-Delta', 'Volcarona', 'Walking Wake', 'Whirling Abyss', 'Xerneas', 'Xurkitree', 'Yveltal',
+		'Zacian', 'Zamazenta', 'Zekrom', 'Zoroark-Hisui', 'Zygarde-50%',
+		'Arena Trap', 'Moody', 'Shadow Tag', 'Power Construct', 'Usurped', 'Marvel',
+		'Eevium Z', 'Damp Rock', 'Icy Rock', 'Razor Fang', 'King\'s Rock',
+		'Quick Wit + Weather Ball', 
+		'Quick Wit + Terrain Pulse',
+	],
+	restricted: ['Acupressure', 'Belly Drum', 'Bite of Winter', 'Bolt Beak', 'Boomburst', 'Botanize', 'Ceaseless Edge', 'Chatter', 'Clangorous Soul', 'Coffee Splatter', 'Dire Claw', 'Divine Volley',
+		'Double Iron Bash', 'Dragon Energy', 'Electrify', 'Electro Shot', 'Enflame', 'Esper Wing', 'Extreme Speed', 'Fatal Elegy', 'Fillet Away', 'Final Gambit', 'Fishious Rend', 'Flash Fist',
+		'Flux Emission', 'Foam Frenzy', 'Geomancy', 'Gigaton Anchor', 'Gigaton Hammer', 'Glacial Chain', 'Heat Siphon', 'Hydroswirl Hole', 'Icicle Flail', 'New Moon', 'No Retreat', 'Peculiar Candy',
+		'Pollen Bloom', 'Primed Current', 'Putrid Grasp', 'Rage Fist', 'Red Herring', 'Remedial Chain', 'Revival Blessing', 'Ruination', 'Sandstorm Fury', 'Scarlet Dance', 'Seasonal Blessing', 'Shell Smash',
+		'Shift Gear', 'Simulate', 'Soul Sap', 'Steel Skewer', 'Streamshift', 'Thicket Outgrowth', 'Tidal Flood', 'Tri Beam', 'Triple Arrows', 'Updraft', 'V-Ascend', 'V-Create', 'Victory Dance', 'Whiteout', 
+		'Wicked Blow', 'Wicked Torque'
+	],
+	unbanlist: [
+		'Gholdengo', 'Scovillain-Mega', 'Good as Gold'
+	],
+	onValidateTeam(team) {
+		for (const set of team) {
+			const species = this.dex.species.get(set.species);
+			if (species.name === 'Greninja-Delta' && this.toID(set.ability) === 'battlebond') {
+				return [`${species.name} + Battle Bond is banned in the Natdex STABmons format. This hardcoded message has been brought to you by Guiltybench!`];
+			}
+		}
+	},
+},
+	{
 		name: "[Gen 9] [ND] Delta Mix and Mega",
 		desc: `Mega evolve any Pok&eacute;mon with any mega stone, or transform them with Genesect Drives, Primal orbs, Origin orbs, Rusted items, Ogerpon Masks, Arceus Plates, and Silvally Memories with no limit. Mega and Primal boosts based on form changes from gen 7.`,
 		mod: 'mixandmega',
