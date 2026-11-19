@@ -26218,6 +26218,7 @@ export const Moves: import("../sim/dex-moves").MoveDataTable = {
 			sound: 1,
 			bypasssub: 1,
 			metronome: 1,
+			protect: 1,
 		},
 		onHit(target, source, move) {
 			if(!source.volatiles['thebelltolls']){
